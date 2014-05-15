@@ -5,10 +5,15 @@ All arguments are currently required.
 Clone this module to your modulepath, classify nodes with 'wasdeploy', run puppet.
 
 The MCO “wasdeploy” utility based on jpadams/runyer.
+
 wasdeploy actions are:
+
 stage - curl over & extract jar files from artifact server, chown of files
+
 deployapp - move app files to appropriate location and change uid:gid of files
+
 deploy - move and chown of web static content on web servers
+
 syncandstart - run the installapp.pl and syncandstart.pl scripts on the deployment server
 
 
