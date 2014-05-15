@@ -1,6 +1,6 @@
 module MCollective
   module Agent
-    class WasDeploy<RPC::Agent
+    class Wasdeploy<RPC::Agent
 
       action 'stage' do
 	#

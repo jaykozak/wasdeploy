@@ -1,4 +1,4 @@
-metadata    :name        => "WasDeploy",
+metadata    :name        => "wasdeploy",
             :description => "Copy jar from src url to dest server and unjar them",
             :author      => "Jay Kozak",
             :license     => "Apache 2.0",
@@ -166,3 +166,6 @@ action "syncandstart", :description => "executes installapp.pl and syncandstarta
            :default     => "unknown"
 
     summarize do
+      aggregate summary(:status)
+    end
+end
